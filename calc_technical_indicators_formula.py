@@ -64,7 +64,7 @@ def KDJ(DM,date,days):
         D.append(D[i-1]*2/3 + K[i]/3)
         J.append(K[i]*3 - 2*D[i])
     
-    #要获取的数据在Klist的索引
+    #获取的数据在Klist的索引
     index = dateList.index(str(datetime.strptime(date, "%Y-%m-%d"))[:10]) 
     print('股票代码:',DM,'日期：',date)
     K1=K[index]
