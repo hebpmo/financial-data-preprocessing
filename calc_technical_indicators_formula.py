@@ -96,7 +96,7 @@ def KDJ(DM,date,days):
                     return -1,1
                 else:
                     return -1,0
-                        
+                
         if J1>D1: #要涨，K线总是在中间,故简化
             print(1)
             if C[index+1]>C[index]:
